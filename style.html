@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <script src="shgal.js">
+    </script>
+</head>
+<body>
+  
+  <button onclick="pushers()">Push Database</button>
+    
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+    
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-database.js"></script>
+    <script>
+  function pushers() {
+  firebase.database().ref("/").set(re);
+}
+
+var re = {boy : 'male' , age : '12'}
+var obj = 
+
+    </script>
+    
+    <script>
+      
+      const firebaseConfig = {
+        apiKey: "AIzaSyCqHx47jddvCcbbFsc_0RZta-U5QtAIu4k",
+        authDomain: "election-c9899.firebaseapp.com",
+        projectId: "election-c9899",
+        storageBucket: "election-c9899.appspot.com",
+        messagingSenderId: "525364143378",
+        appId: "1:525364143378:web:24c52b5de931c9a7a77fcb",
+        measurementId: "G-6QH13FCNEY"
+      };
+      firebase.initializeApp(firebaseConfig);
+    </script>
+</body>
+</html>
